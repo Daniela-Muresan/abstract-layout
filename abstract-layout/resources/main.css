@@ -92,6 +92,7 @@ img{
     height: 100%;
 }
 /*text-area*/
+/* Ar fi fost mai ok sa folosesc flex pentru aliniera celor 2 div-uri si a paragrafului? */
 .text-area-wrapper{
     /* border: 1px solid black; */
     width: 85%;
