@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body,.page-wrapper{
+    width: 100%;
+    height: 100%;
+}
+.page-wrapper{
+    background-image: url(../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+/* page */
+.page-corner{
+    /* border: 2px solid red; */
+    position: absolute;
+    width: 35%;
+    height: 90px;
+}
+.page-corner.top-left{
+    top: 50px;
+    left: 50px;   
+    padding-left: 20px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.dots{
+    /* border: 2px solid green; */
+    position: absolute;
+    width: 8%;   
+}
+.dots.top-right{
+    top: 50px;
+    right: 50px;  
+}
+.page-corner.bottom-right{
+    bottom: 50px;
+    right: 50px;
+    width: 30%;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+.page-corner.bottom-right img{
+    position: absolute;
+    bottom: 0;
+}
+.dots.bottom-left{
+    bottom: 50px;
+    left: 50px;  
+}
+/*text-box*/
+.main-wrapper{
+    border: 4px solid white;
+    width: 40%;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.main-content-wrapper{
+    /* border: 3px solid tomato; */
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.horizontal-lines-wrapper{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    width: 15px;
+    height: 130px;
+}
+.horizontal-lines-wrapper img{
+    width: 100%;
+    height: 100%;
+}
+.horizontal-background{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 15px;
+    height: 130px;
+}
+.horizontal-background img{
+    width: 100%;
+    height: 100%;
+}
+/*text-area*/
+.text-area-wrapper{
+    /* border: 1px solid black; */
+    width: 85%;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.text-area-content-wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.text-area-content-wrapper div{
+    position: absolute;
+    left: 50%;
+}
+.abstract-title-wrapper{
+    width: 65%;
+    height: auto;
+    transform: translateX(-50%);
+    margin-top: 20px;
+}
+.line{
+    border-top: 2px solid white ;
+    width: 40%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+p{
+    /* border: 1px solid black; */
+    margin: 10px;
+    position: absolute;
+    bottom: 0;   
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+    text-transform: uppercase;  
+}
